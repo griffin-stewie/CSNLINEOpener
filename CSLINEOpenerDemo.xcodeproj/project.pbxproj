@@ -28,6 +28,9 @@
 		E388B6C516C8EA7B00181782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69516C8EA7B00181782 /* Foundation.framework */; };
 		E388B6CD16C8EA7B00181782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E388B6CB16C8EA7B00181782 /* InfoPlist.strings */; };
 		E388B6D016C8EA7B00181782 /* CSLINEOpenerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */; };
+		E388B6DE16C8EABC00181782 /* CSLINEOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6DB16C8EABC00181782 /* CSLINEOpener.m */; };
+		E388B6DF16C8EABC00181782 /* CSLINEOpenerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */; };
+		E388B6E216C8EF2F00181782 /* ActivityDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		E388B6CC16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E388B6CE16C8EA7B00181782 /* CSLINEOpenerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLINEOpenerDemoTests.h; sourceTree = "<group>"; };
 		E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpenerDemoTests.m; sourceTree = "<group>"; };
+		E388B6DA16C8EABC00181782 /* CSLINEOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLINEOpener.h; sourceTree = "<group>"; };
+		E388B6DB16C8EABC00181782 /* CSLINEOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpener.m; sourceTree = "<group>"; };
+		E388B6DC16C8EABC00181782 /* CSLINEOpenerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLINEOpenerActivity.h; sourceTree = "<group>"; };
+		E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpenerActivity.m; sourceTree = "<group>"; };
+		E388B6E016C8EF2F00181782 /* ActivityDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDemoViewController.h; sourceTree = "<group>"; };
+		E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,7 @@
 		E388B68716C8EA7B00181782 = {
 			isa = PBXGroup;
 			children = (
+				E388B6D916C8EABC00181782 /* CSLINEOpener */,
 				E388B69916C8EA7B00181782 /* CSLINEOpenerDemo */,
 				E388B6C816C8EA7B00181782 /* CSLINEOpenerDemoTests */,
 				E388B69216C8EA7B00181782 /* Frameworks */,
@@ -139,6 +149,8 @@
 				E388B6B616C8EA7B00181782 /* SecondViewController.m */,
 				E388B6B816C8EA7B00181782 /* second.png */,
 				E388B6BA16C8EA7B00181782 /* second@2x.png */,
+				E388B6E016C8EF2F00181782 /* ActivityDemoViewController.h */,
+				E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */,
 				E388B69A16C8EA7B00181782 /* Supporting Files */,
 			);
 			path = CSLINEOpenerDemo;
@@ -175,6 +187,17 @@
 				E388B6CB16C8EA7B00181782 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E388B6D916C8EABC00181782 /* CSLINEOpener */ = {
+			isa = PBXGroup;
+			children = (
+				E388B6DA16C8EABC00181782 /* CSLINEOpener.h */,
+				E388B6DB16C8EABC00181782 /* CSLINEOpener.m */,
+				E388B6DC16C8EABC00181782 /* CSLINEOpenerActivity.h */,
+				E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */,
+			);
+			path = CSLINEOpener;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +318,9 @@
 				E388B6A416C8EA7B00181782 /* AppDelegate.m in Sources */,
 				E388B6B016C8EA7B00181782 /* FirstViewController.m in Sources */,
 				E388B6B716C8EA7B00181782 /* SecondViewController.m in Sources */,
+				E388B6DE16C8EABC00181782 /* CSLINEOpener.m in Sources */,
+				E388B6DF16C8EABC00181782 /* CSLINEOpenerActivity.m in Sources */,
+				E388B6E216C8EF2F00181782 /* ActivityDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,6 +444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
