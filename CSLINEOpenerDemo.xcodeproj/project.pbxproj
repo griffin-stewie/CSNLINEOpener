@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E388B69416C8EA7B00181782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69316C8EA7B00181782 /* UIKit.framework */; };
+		E388B69616C8EA7B00181782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69516C8EA7B00181782 /* Foundation.framework */; };
+		E388B69816C8EA7B00181782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69716C8EA7B00181782 /* CoreGraphics.framework */; };
+		E388B69E16C8EA7B00181782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E388B69C16C8EA7B00181782 /* InfoPlist.strings */; };
+		E388B6A016C8EA7B00181782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B69F16C8EA7B00181782 /* main.m */; };
+		E388B6A416C8EA7B00181782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6A316C8EA7B00181782 /* AppDelegate.m */; };
+		E388B6A616C8EA7B00181782 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6A516C8EA7B00181782 /* Default.png */; };
+		E388B6A816C8EA7B00181782 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6A716C8EA7B00181782 /* Default@2x.png */; };
+		E388B6AA16C8EA7B00181782 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6A916C8EA7B00181782 /* Default-568h@2x.png */; };
+		E388B6AD16C8EA7B00181782 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E388B6AB16C8EA7B00181782 /* MainStoryboard.storyboard */; };
+		E388B6B016C8EA7B00181782 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6AF16C8EA7B00181782 /* FirstViewController.m */; };
+		E388B6B216C8EA7B00181782 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6B116C8EA7B00181782 /* first.png */; };
+		E388B6B416C8EA7B00181782 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6B316C8EA7B00181782 /* first@2x.png */; };
+		E388B6B716C8EA7B00181782 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6B616C8EA7B00181782 /* SecondViewController.m */; };
+		E388B6B916C8EA7B00181782 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6B816C8EA7B00181782 /* second.png */; };
+		E388B6BB16C8EA7B00181782 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E388B6BA16C8EA7B00181782 /* second@2x.png */; };
+		E388B6C316C8EA7B00181782 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B6C216C8EA7B00181782 /* SenTestingKit.framework */; };
+		E388B6C416C8EA7B00181782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69316C8EA7B00181782 /* UIKit.framework */; };
+		E388B6C516C8EA7B00181782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69516C8EA7B00181782 /* Foundation.framework */; };
+		E388B6CD16C8EA7B00181782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E388B6CB16C8EA7B00181782 /* InfoPlist.strings */; };
+		E388B6D016C8EA7B00181782 /* CSLINEOpenerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E388B6C616C8EA7B00181782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E388B68816C8EA7B00181782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E388B68F16C8EA7B00181782;
+			remoteInfo = CSLINEOpenerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLINEOpenerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388B69316C8EA7B00181782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E388B69516C8EA7B00181782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E388B69716C8EA7B00181782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E388B69B16C8EA7B00181782 /* CSLINEOpenerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSLINEOpenerDemo-Info.plist"; sourceTree = "<group>"; };
+		E388B69D16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E388B69F16C8EA7B00181782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E388B6A116C8EA7B00181782 /* CSLINEOpenerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSLINEOpenerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E388B6A216C8EA7B00181782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E388B6A316C8EA7B00181782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E388B6A516C8EA7B00181782 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E388B6A716C8EA7B00181782 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E388B6A916C8EA7B00181782 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E388B6AC16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E388B6AE16C8EA7B00181782 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E388B6AF16C8EA7B00181782 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E388B6B116C8EA7B00181782 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E388B6B316C8EA7B00181782 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		E388B6B516C8EA7B00181782 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E388B6B616C8EA7B00181782 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E388B6B816C8EA7B00181782 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		E388B6BA16C8EA7B00181782 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSLINEOpenerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388B6C216C8EA7B00181782 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E388B6CA16C8EA7B00181782 /* CSLINEOpenerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSLINEOpenerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E388B6CC16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E388B6CE16C8EA7B00181782 /* CSLINEOpenerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLINEOpenerDemoTests.h; sourceTree = "<group>"; };
+		E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpenerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E388B68D16C8EA7B00181782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B69416C8EA7B00181782 /* UIKit.framework in Frameworks */,
+				E388B69616C8EA7B00181782 /* Foundation.framework in Frameworks */,
+				E388B69816C8EA7B00181782 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E388B6BD16C8EA7B00181782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B6C316C8EA7B00181782 /* SenTestingKit.framework in Frameworks */,
+				E388B6C416C8EA7B00181782 /* UIKit.framework in Frameworks */,
+				E388B6C516C8EA7B00181782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E388B68716C8EA7B00181782 = {
+			isa = PBXGroup;
+			children = (
+				E388B69916C8EA7B00181782 /* CSLINEOpenerDemo */,
+				E388B6C816C8EA7B00181782 /* CSLINEOpenerDemoTests */,
+				E388B69216C8EA7B00181782 /* Frameworks */,
+				E388B69116C8EA7B00181782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E388B69116C8EA7B00181782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */,
+				E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E388B69216C8EA7B00181782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E388B69316C8EA7B00181782 /* UIKit.framework */,
+				E388B69516C8EA7B00181782 /* Foundation.framework */,
+				E388B69716C8EA7B00181782 /* CoreGraphics.framework */,
+				E388B6C216C8EA7B00181782 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E388B69916C8EA7B00181782 /* CSLINEOpenerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E388B6A216C8EA7B00181782 /* AppDelegate.h */,
+				E388B6A316C8EA7B00181782 /* AppDelegate.m */,
+				E388B6AB16C8EA7B00181782 /* MainStoryboard.storyboard */,
+				E388B6AE16C8EA7B00181782 /* FirstViewController.h */,
+				E388B6AF16C8EA7B00181782 /* FirstViewController.m */,
+				E388B6B116C8EA7B00181782 /* first.png */,
+				E388B6B316C8EA7B00181782 /* first@2x.png */,
+				E388B6B516C8EA7B00181782 /* SecondViewController.h */,
+				E388B6B616C8EA7B00181782 /* SecondViewController.m */,
+				E388B6B816C8EA7B00181782 /* second.png */,
+				E388B6BA16C8EA7B00181782 /* second@2x.png */,
+				E388B69A16C8EA7B00181782 /* Supporting Files */,
+			);
+			path = CSLINEOpenerDemo;
+			sourceTree = "<group>";
+		};
+		E388B69A16C8EA7B00181782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E388B69B16C8EA7B00181782 /* CSLINEOpenerDemo-Info.plist */,
+				E388B69C16C8EA7B00181782 /* InfoPlist.strings */,
+				E388B69F16C8EA7B00181782 /* main.m */,
+				E388B6A116C8EA7B00181782 /* CSLINEOpenerDemo-Prefix.pch */,
+				E388B6A516C8EA7B00181782 /* Default.png */,
+				E388B6A716C8EA7B00181782 /* Default@2x.png */,
+				E388B6A916C8EA7B00181782 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E388B6C816C8EA7B00181782 /* CSLINEOpenerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E388B6CE16C8EA7B00181782 /* CSLINEOpenerDemoTests.h */,
+				E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */,
+				E388B6C916C8EA7B00181782 /* Supporting Files */,
+			);
+			path = CSLINEOpenerDemoTests;
+			sourceTree = "<group>";
+		};
+		E388B6C916C8EA7B00181782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E388B6CA16C8EA7B00181782 /* CSLINEOpenerDemoTests-Info.plist */,
+				E388B6CB16C8EA7B00181782 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemo" */;
+			buildPhases = (
+				E388B68C16C8EA7B00181782 /* Sources */,
+				E388B68D16C8EA7B00181782 /* Frameworks */,
+				E388B68E16C8EA7B00181782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSLINEOpenerDemo;
+			productName = CSLINEOpenerDemo;
+			productReference = E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E388B6C016C8EA7B00181782 /* CSLINEOpenerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemoTests" */;
+			buildPhases = (
+				E388B6BC16C8EA7B00181782 /* Sources */,
+				E388B6BD16C8EA7B00181782 /* Frameworks */,
+				E388B6BE16C8EA7B00181782 /* Resources */,
+				E388B6BF16C8EA7B00181782 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E388B6C716C8EA7B00181782 /* PBXTargetDependency */,
+			);
+			name = CSLINEOpenerDemoTests;
+			productName = CSLINEOpenerDemoTests;
+			productReference = E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E388B68816C8EA7B00181782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "cyan-stivy.net";
+			};
+			buildConfigurationList = E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSLINEOpenerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E388B68716C8EA7B00181782;
+			productRefGroup = E388B69116C8EA7B00181782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */,
+				E388B6C016C8EA7B00181782 /* CSLINEOpenerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E388B68E16C8EA7B00181782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B69E16C8EA7B00181782 /* InfoPlist.strings in Resources */,
+				E388B6A616C8EA7B00181782 /* Default.png in Resources */,
+				E388B6A816C8EA7B00181782 /* Default@2x.png in Resources */,
+				E388B6AA16C8EA7B00181782 /* Default-568h@2x.png in Resources */,
+				E388B6AD16C8EA7B00181782 /* MainStoryboard.storyboard in Resources */,
+				E388B6B216C8EA7B00181782 /* first.png in Resources */,
+				E388B6B416C8EA7B00181782 /* first@2x.png in Resources */,
+				E388B6B916C8EA7B00181782 /* second.png in Resources */,
+				E388B6BB16C8EA7B00181782 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E388B6BE16C8EA7B00181782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B6CD16C8EA7B00181782 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E388B6BF16C8EA7B00181782 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E388B68C16C8EA7B00181782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B6A016C8EA7B00181782 /* main.m in Sources */,
+				E388B6A416C8EA7B00181782 /* AppDelegate.m in Sources */,
+				E388B6B016C8EA7B00181782 /* FirstViewController.m in Sources */,
+				E388B6B716C8EA7B00181782 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E388B6BC16C8EA7B00181782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E388B6D016C8EA7B00181782 /* CSLINEOpenerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E388B6C716C8EA7B00181782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */;
+			targetProxy = E388B6C616C8EA7B00181782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E388B69C16C8EA7B00181782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E388B69D16C8EA7B00181782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E388B6AB16C8EA7B00181782 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E388B6AC16C8EA7B00181782 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E388B6CB16C8EA7B00181782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E388B6CC16C8EA7B00181782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E388B6D116C8EA7B00181782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E388B6D216C8EA7B00181782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E388B6D416C8EA7B00181782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E388B6D516C8EA7B00181782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E388B6D716C8EA7B00181782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSLINEOpenerDemo.app/CSLINEOpenerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSLINEOpenerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E388B6D816C8EA7B00181782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSLINEOpenerDemo.app/CSLINEOpenerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSLINEOpenerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSLINEOpenerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E388B6D116C8EA7B00181782 /* Debug */,
+				E388B6D216C8EA7B00181782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E388B6D416C8EA7B00181782 /* Debug */,
+				E388B6D516C8EA7B00181782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E388B6D716C8EA7B00181782 /* Debug */,
+				E388B6D816C8EA7B00181782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E388B68816C8EA7B00181782 /* Project object */;
+}
