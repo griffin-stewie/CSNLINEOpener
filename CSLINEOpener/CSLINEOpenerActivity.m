@@ -93,8 +93,8 @@
             BOOL result = [CSLINEOpener openLINEAppWithText:(NSString *)item];
             [self activityDidFinish:result];
             break;
-        } else if ([item isKindOfClass:[NSString class]]) {
-            BOOL result = [CSLINEOpener openLINEAppWithText:(NSString *)item];
+        } else if ([item isKindOfClass:[UIImage class]]) {
+            BOOL result = [CSLINEOpener openLINEAppWithImage:(UIImage *)item];
             [self activityDidFinish:result];
             break;
         }
