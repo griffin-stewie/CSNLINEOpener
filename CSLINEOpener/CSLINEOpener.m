@@ -59,7 +59,7 @@
 
 + (BOOL)openLINEAppWithImage:(UIImage *)image
 {
-    UIPasteboard *pasteboard = [UIPasteboard pasteboardWithUniqueName];
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     NSString *pasteboardName = pasteboard.name;
     [pasteboard setData:UIImagePNGRepresentation(image) forPasteboardType:@"public.png"];
     NSString *encoded = [self percentEncodedStringWithString:pasteboardName];
