@@ -1,13 +1,13 @@
 //
 //  SecondViewController.m
-//  CSLINEOpenerDemo
+//  CSNLineOpenerDemo
 //
 //  Created by griffin_stewie on 2013/02/11.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
 //
 
 #import "SecondViewController.h"
-#import "CSLINEOpener.h"
+#import "CSNLINEOpener.h"
 
 @interface SecondViewController ()
 
@@ -38,10 +38,10 @@
 - (IBAction)sendImageButtonTapped:(id)sender
 {
     if (self.imageView.image) {
-        if ([CSLINEOpener canOpenLINE]) {
-            [CSLINEOpener openLINEAppWithImage:self.imageView.image];
+        if ([CSNLINEOpener canOpenLINE]) {
+            [CSNLINEOpener openLINEAppWithImage:self.imageView.image];
         } else {
-            [CSLINEOpener openAppStore];
+            [CSNLINEOpener openAppStore];
         }
     }
 }

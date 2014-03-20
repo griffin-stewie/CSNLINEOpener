@@ -1,13 +1,13 @@
 //
 //  ActivityDemoViewController.m
-//  CSLINEOpenerDemo
+//  CSNLineOpenerDemo
 //
-//  Created by Zushi Tatsuya on 2013/02/11.
+//  Created by griffin_stewie on 2013/02/11.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
 //
 
 #import "ActivityDemoViewController.h"
-#import "CSLINEOpenerActivity.h"
+#import "CSNLINEOpenerActivity.h"
 
 @interface ActivityDemoViewController ( )
 @property (nonatomic, strong) NSMutableArray *activityItems;
@@ -74,7 +74,7 @@
         [self addSampleText];
     }
     
-    NSArray *applicationActivities = @[[[CSLINEOpenerActivity alloc] initWithTitle:nil icon:[UIImage imageNamed:@"second"]]];
+    NSArray *applicationActivities = @[[[CSNLINEOpenerActivity alloc] initWithTitle:nil icon:[UIImage imageNamed:@"second"]]];
     UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:self.activityItems
                                                                                          applicationActivities:applicationActivities];
     [self presentViewController:activityViewController animated:YES completion:NULL];

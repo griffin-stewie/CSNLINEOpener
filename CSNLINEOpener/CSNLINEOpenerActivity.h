@@ -1,5 +1,5 @@
 //
-//  CSLINEOpener.h
+//  CSNLineOpenerActivity.h
 //
 //  Created by griffin_stewie on 2013/02/01.
 //  Copyright (c) 2013 griffin_stewie
@@ -22,48 +22,25 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-
-#import <Foundation/Foundation.h>
-
-/**
- LINE アプリに対し、テキストもしくは画像を渡して起動させるためのクラス。
- 「LINEで送るボタン」機能
- 
- */
-
-@interface CSLINEOpener : NSObject
+#import <UIKit/UIKit.h>
 
 /**
- LINE アプリがインストールされているかどうかを判定
- 
- @return "line://" スキームに対応していれば YES, そうでなければ NO を返す
+ `CSNLineOpener` を使った `UIActivity` のサブクラス
  */
-+ (BOOL)canOpenLINE;
+
+@interface CSNLINEOpenerActivity : UIActivity
 
 /**
- text を LINE アプリに渡して起動
+ `UIActivity` のサブクラスを返す
  
- @param text LINE アプリに渡したい文字列
+ @param title UIActivityViewController に表示させたい名前を指定。nil の場合は "LINE" と表示される。
  
- @return LINE アプリが起動できれば YES、出来なければ NO を返す
+ @param icon UIActivityViewController に表示させたいアイコンを指定。
  
+ @discussion 指定イニシャライザです
+ 
+ @return UIActivity のインスタンスを返します
  */
-+ (BOOL)openLINEAppWithText:(NSString *)text;
-
-/**
- image を LINE アプリに渡して起動
- 
- @param image LINE アプリに渡したい `UIImage`
- 
- @return LINE アプリが起動できれば YES、出来なければ NO を返す
- */
-+ (BOOL)openLINEAppWithImage:(UIImage *)image;
-
-/**
- AppStore でLINE アプリのページを開く
-
- @return AppStore アプリが起動できれば YES、出来なければ NO を返す
- */
-+ (BOOL)openAppStore;
+- (id)initWithTitle:(NSString *)title icon:(UIImage *)icon;
 
 @end

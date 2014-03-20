@@ -28,9 +28,9 @@
 		E388B6C516C8EA7B00181782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388B69516C8EA7B00181782 /* Foundation.framework */; };
 		E388B6CD16C8EA7B00181782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E388B6CB16C8EA7B00181782 /* InfoPlist.strings */; };
 		E388B6D016C8EA7B00181782 /* CSLINEOpenerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */; };
-		E388B6DE16C8EABC00181782 /* CSLINEOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6DB16C8EABC00181782 /* CSLINEOpener.m */; };
-		E388B6DF16C8EABC00181782 /* CSLINEOpenerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */; };
 		E388B6E216C8EF2F00181782 /* ActivityDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */; };
+		E394723A18DB19A00062CCD0 /* CSNLINEOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = E394723718DB19A00062CCD0 /* CSNLINEOpener.m */; };
+		E394723B18DB19A00062CCD0 /* CSNLINEOpenerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E394723918DB19A00062CCD0 /* CSNLINEOpenerActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLINEOpenerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388B69016C8EA7B00181782 /* CSNLINEOpenerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSNLINEOpenerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E388B69316C8EA7B00181782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E388B69516C8EA7B00181782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E388B69716C8EA7B00181782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E388B69B16C8EA7B00181782 /* CSLINEOpenerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSLINEOpenerDemo-Info.plist"; sourceTree = "<group>"; };
+		E388B69B16C8EA7B00181782 /* CSNLINEOpenerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSNLINEOpenerDemo-Info.plist"; sourceTree = "<group>"; };
 		E388B69D16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E388B69F16C8EA7B00181782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E388B6A116C8EA7B00181782 /* CSLINEOpenerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSLINEOpenerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E388B6A116C8EA7B00181782 /* CSNLINEOpenerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSNLINEOpenerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		E388B6A216C8EA7B00181782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E388B6A316C8EA7B00181782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E388B6A516C8EA7B00181782 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -66,18 +66,18 @@
 		E388B6B616C8EA7B00181782 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E388B6B816C8EA7B00181782 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		E388B6BA16C8EA7B00181782 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSLINEOpenerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388B6C116C8EA7B00181782 /* CSNLINEOpenerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSNLINEOpenerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E388B6C216C8EA7B00181782 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E388B6CA16C8EA7B00181782 /* CSLINEOpenerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSLINEOpenerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E388B6CA16C8EA7B00181782 /* CSNLINEOpenerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSNLINEOpenerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E388B6CC16C8EA7B00181782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E388B6CE16C8EA7B00181782 /* CSLINEOpenerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLINEOpenerDemoTests.h; sourceTree = "<group>"; };
 		E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpenerDemoTests.m; sourceTree = "<group>"; };
-		E388B6DA16C8EABC00181782 /* CSLINEOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLINEOpener.h; sourceTree = "<group>"; };
-		E388B6DB16C8EABC00181782 /* CSLINEOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpener.m; sourceTree = "<group>"; };
-		E388B6DC16C8EABC00181782 /* CSLINEOpenerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLINEOpenerActivity.h; sourceTree = "<group>"; };
-		E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLINEOpenerActivity.m; sourceTree = "<group>"; };
 		E388B6E016C8EF2F00181782 /* ActivityDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDemoViewController.h; sourceTree = "<group>"; };
 		E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDemoViewController.m; sourceTree = "<group>"; };
+		E394723618DB19A00062CCD0 /* CSNLINEOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNLINEOpener.h; sourceTree = "<group>"; };
+		E394723718DB19A00062CCD0 /* CSNLINEOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNLINEOpener.m; sourceTree = "<group>"; };
+		E394723818DB19A00062CCD0 /* CSNLINEOpenerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNLINEOpenerActivity.h; sourceTree = "<group>"; };
+		E394723918DB19A00062CCD0 /* CSNLINEOpenerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNLINEOpenerActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		E388B68716C8EA7B00181782 = {
 			isa = PBXGroup;
 			children = (
-				E388B6D916C8EABC00181782 /* CSLINEOpener */,
+				E394723518DB19A00062CCD0 /* CSNLINEOpener */,
 				E388B69916C8EA7B00181782 /* CSLINEOpenerDemo */,
 				E388B6C816C8EA7B00181782 /* CSLINEOpenerDemoTests */,
 				E388B69216C8EA7B00181782 /* Frameworks */,
@@ -118,8 +118,8 @@
 		E388B69116C8EA7B00181782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */,
-				E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */,
+				E388B69016C8EA7B00181782 /* CSNLINEOpenerDemo.app */,
+				E388B6C116C8EA7B00181782 /* CSNLINEOpenerDemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,16 +153,17 @@
 				E388B6E116C8EF2F00181782 /* ActivityDemoViewController.m */,
 				E388B69A16C8EA7B00181782 /* Supporting Files */,
 			);
-			path = CSLINEOpenerDemo;
+			name = CSLINEOpenerDemo;
+			path = CSNLINEOpenerDemo;
 			sourceTree = "<group>";
 		};
 		E388B69A16C8EA7B00181782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E388B69B16C8EA7B00181782 /* CSLINEOpenerDemo-Info.plist */,
+				E388B69B16C8EA7B00181782 /* CSNLINEOpenerDemo-Info.plist */,
 				E388B69C16C8EA7B00181782 /* InfoPlist.strings */,
 				E388B69F16C8EA7B00181782 /* main.m */,
-				E388B6A116C8EA7B00181782 /* CSLINEOpenerDemo-Prefix.pch */,
+				E388B6A116C8EA7B00181782 /* CSNLINEOpenerDemo-Prefix.pch */,
 				E388B6A516C8EA7B00181782 /* Default.png */,
 				E388B6A716C8EA7B00181782 /* Default@2x.png */,
 				E388B6A916C8EA7B00181782 /* Default-568h@2x.png */,
@@ -177,35 +178,36 @@
 				E388B6CF16C8EA7B00181782 /* CSLINEOpenerDemoTests.m */,
 				E388B6C916C8EA7B00181782 /* Supporting Files */,
 			);
-			path = CSLINEOpenerDemoTests;
+			name = CSLINEOpenerDemoTests;
+			path = CSNLINEOpenerDemoTests;
 			sourceTree = "<group>";
 		};
 		E388B6C916C8EA7B00181782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E388B6CA16C8EA7B00181782 /* CSLINEOpenerDemoTests-Info.plist */,
+				E388B6CA16C8EA7B00181782 /* CSNLINEOpenerDemoTests-Info.plist */,
 				E388B6CB16C8EA7B00181782 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E388B6D916C8EABC00181782 /* CSLINEOpener */ = {
+		E394723518DB19A00062CCD0 /* CSNLINEOpener */ = {
 			isa = PBXGroup;
 			children = (
-				E388B6DA16C8EABC00181782 /* CSLINEOpener.h */,
-				E388B6DB16C8EABC00181782 /* CSLINEOpener.m */,
-				E388B6DC16C8EABC00181782 /* CSLINEOpenerActivity.h */,
-				E388B6DD16C8EABC00181782 /* CSLINEOpenerActivity.m */,
+				E394723618DB19A00062CCD0 /* CSNLINEOpener.h */,
+				E394723718DB19A00062CCD0 /* CSNLINEOpener.m */,
+				E394723818DB19A00062CCD0 /* CSNLINEOpenerActivity.h */,
+				E394723918DB19A00062CCD0 /* CSNLINEOpenerActivity.m */,
 			);
-			path = CSLINEOpener;
+			path = CSNLINEOpener;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */ = {
+		E388B68F16C8EA7B00181782 /* CSNLINEOpenerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemo" */;
+			buildConfigurationList = E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSNLINEOpenerDemo" */;
 			buildPhases = (
 				E388B68C16C8EA7B00181782 /* Sources */,
 				E388B68D16C8EA7B00181782 /* Frameworks */,
@@ -215,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = CSLINEOpenerDemo;
+			name = CSNLINEOpenerDemo;
 			productName = CSLINEOpenerDemo;
-			productReference = E388B69016C8EA7B00181782 /* CSLINEOpenerDemo.app */;
+			productReference = E388B69016C8EA7B00181782 /* CSNLINEOpenerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E388B6C016C8EA7B00181782 /* CSLINEOpenerDemoTests */ = {
+		E388B6C016C8EA7B00181782 /* CSNLINEOpenerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemoTests" */;
+			buildConfigurationList = E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSNLINEOpenerDemoTests" */;
 			buildPhases = (
 				E388B6BC16C8EA7B00181782 /* Sources */,
 				E388B6BD16C8EA7B00181782 /* Frameworks */,
@@ -234,9 +236,9 @@
 			dependencies = (
 				E388B6C716C8EA7B00181782 /* PBXTargetDependency */,
 			);
-			name = CSLINEOpenerDemoTests;
+			name = CSNLINEOpenerDemoTests;
 			productName = CSLINEOpenerDemoTests;
-			productReference = E388B6C116C8EA7B00181782 /* CSLINEOpenerDemoTests.octest */;
+			productReference = E388B6C116C8EA7B00181782 /* CSNLINEOpenerDemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +250,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "cyan-stivy.net";
 			};
-			buildConfigurationList = E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSLINEOpenerDemo" */;
+			buildConfigurationList = E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSNLINEOpenerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,8 +262,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */,
-				E388B6C016C8EA7B00181782 /* CSLINEOpenerDemoTests */,
+				E388B68F16C8EA7B00181782 /* CSNLINEOpenerDemo */,
+				E388B6C016C8EA7B00181782 /* CSNLINEOpenerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -314,12 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E394723B18DB19A00062CCD0 /* CSNLINEOpenerActivity.m in Sources */,
 				E388B6A016C8EA7B00181782 /* main.m in Sources */,
 				E388B6A416C8EA7B00181782 /* AppDelegate.m in Sources */,
 				E388B6B016C8EA7B00181782 /* FirstViewController.m in Sources */,
 				E388B6B716C8EA7B00181782 /* SecondViewController.m in Sources */,
-				E388B6DE16C8EABC00181782 /* CSLINEOpener.m in Sources */,
-				E388B6DF16C8EABC00181782 /* CSLINEOpenerActivity.m in Sources */,
+				E394723A18DB19A00062CCD0 /* CSNLINEOpener.m in Sources */,
 				E388B6E216C8EF2F00181782 /* ActivityDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +339,7 @@
 /* Begin PBXTargetDependency section */
 		E388B6C716C8EA7B00181782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E388B68F16C8EA7B00181782 /* CSLINEOpenerDemo */;
+			target = E388B68F16C8EA7B00181782 /* CSNLINEOpenerDemo */;
 			targetProxy = E388B6C616C8EA7B00181782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,10 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CSNLINEOpenerDemo/CSNLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSNLINEOpenerDemo/CSNLINEOpenerDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSNLINEOpenerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -442,10 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSLINEOpenerDemo/CSLINEOpenerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CSNLINEOpenerDemo/CSNLINEOpenerDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSNLINEOpenerDemo/CSNLINEOpenerDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSNLINEOpenerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,8 +462,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSLINEOpenerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSNLINEOpenerDemoTests-Info.plist";
+				PRODUCT_NAME = CSNLINEOpenerDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -477,8 +479,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSLINEOpenerDemo/CSLINEOpenerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSLINEOpenerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CSLINEOpenerDemoTests/CSNLINEOpenerDemoTests-Info.plist";
+				PRODUCT_NAME = CSNLINEOpenerDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -487,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSLINEOpenerDemo" */ = {
+		E388B68B16C8EA7B00181782 /* Build configuration list for PBXProject "CSNLINEOpenerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E388B6D116C8EA7B00181782 /* Debug */,
@@ -496,21 +498,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemo" */ = {
+		E388B6D316C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSNLINEOpenerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E388B6D416C8EA7B00181782 /* Debug */,
 				E388B6D516C8EA7B00181782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSLINEOpenerDemoTests" */ = {
+		E388B6D616C8EA7B00181782 /* Build configuration list for PBXNativeTarget "CSNLINEOpenerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E388B6D716C8EA7B00181782 /* Debug */,
 				E388B6D816C8EA7B00181782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

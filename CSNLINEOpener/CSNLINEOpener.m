@@ -1,5 +1,5 @@
 //
-//  CSLINEOpener.m
+//  CSNLineOpener.m
 //
 //  Created by griffin_stewie on 2013/02/01.
 //  Copyright (c) 2013 griffin_stewie
@@ -22,7 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "CSLINEOpener.h"
+#import "CSNLINEOpener.h"
 
 /**
  
@@ -36,7 +36,7 @@
 #define LINE_URL_CONTENT_TYPE_TEXT @"text"
 #define LINE_URL_CONTENT_TYPE_IMAGE @"image"
 
-@implementation CSLINEOpener
+@implementation CSNLINEOpener
 
 #pragma mark -
 #pragma mark Public

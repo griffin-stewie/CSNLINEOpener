@@ -1,5 +1,5 @@
 //
-//  CSLINEOpenerActivity.m
+//  CSNLineOpenerActivity.m
 //
 //  Created by griffin_stewie on 2013/02/01.
 //  Copyright (c) 2013 griffin_stewie
@@ -22,17 +22,17 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "CSLINEOpenerActivity.h"
-#import "CSLINEOpener.h"
+#import "CSNLINEOpenerActivity.h"
+#import "CSNLINEOpener.h"
 
-@interface CSLINEOpenerActivity ( )
+@interface CSNLINEOpenerActivity ( )
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) UIImage *icon;
 @property (nonatomic, strong) NSArray *activityItems;
 @end
 
 
-@implementation CSLINEOpenerActivity
+@implementation CSNLINEOpenerActivity
 
 - (id)initWithTitle:(NSString *)title icon:(UIImage *)icon
 {
@@ -83,18 +83,18 @@
 
 - (void)performActivity
 {
-    if (![CSLINEOpener canOpenLINE]) {
+    if (![CSNLINEOpener canOpenLINE]) {
         [self activityDidFinish:NO];
         return;
     }
     
     for (id item in self.activityItems) {
         if ([item isKindOfClass:[NSString class]]) {
-            BOOL result = [CSLINEOpener openLINEAppWithText:(NSString *)item];
+            BOOL result = [CSNLINEOpener openLINEAppWithText:(NSString *)item];
             [self activityDidFinish:result];
             break;
         } else if ([item isKindOfClass:[UIImage class]]) {
-            BOOL result = [CSLINEOpener openLINEAppWithImage:(UIImage *)item];
+            BOOL result = [CSNLINEOpener openLINEAppWithImage:(UIImage *)item];
             [self activityDidFinish:result];
             break;
         }

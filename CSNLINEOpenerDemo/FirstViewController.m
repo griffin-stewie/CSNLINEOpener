@@ -1,13 +1,13 @@
 //
 //  FirstViewController.m
-//  CSLINEOpenerDemo
+//  CSNLineOpenerDemo
 //
 //  Created by griffin_stewie on 2013/02/11.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
 //
 
 #import "FirstViewController.h"
-#import "CSLINEOpener.h"
+#import "CSNLINEOpener.h"
 
 @interface FirstViewController ()
 
@@ -54,10 +54,10 @@
 
 - (IBAction)sendTextButtonTapped:(id)sender
 {
-    if ([CSLINEOpener canOpenLINE]) {
-        [CSLINEOpener openLINEAppWithText:self.textView.text];
+    if ([CSNLINEOpener canOpenLINE]) {
+        [CSNLINEOpener openLINEAppWithText:self.textView.text];
     } else {
-        [CSLINEOpener openAppStore];
+        [CSNLINEOpener openAppStore];
     }
 }
 @end
