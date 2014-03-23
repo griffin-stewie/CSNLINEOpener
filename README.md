@@ -1,5 +1,8 @@
 # CSNLINEOpener
 
+[![CocoaPods](http://img.shields.io/cocoapods/v/CSNLINEOpener.svg)](https://github.com/CocoaPods/Specs/tree/master/CSNLINEOpener)
+![](http://img.shields.io/badge/license-MIT-green.svg)
+
 ## 概要
 
 NAVER (LINE) が提供している LINE アプリへ "LINEで送るボタン" 機能を提供します。ご利用には [ガイドライン](http://media.line.naver.jp/guideline/ja/ "ガイドライン｜LINEで送るボタン") に従う必要があります。
