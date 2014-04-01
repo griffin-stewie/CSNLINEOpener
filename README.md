@@ -1,6 +1,6 @@
 # CSNLINEOpener
 
-[![CocoaPods](http://img.shields.io/cocoapods/v/CSNLINEOpener.svg)](https://github.com/CocoaPods/Specs/tree/master/CSNLINEOpener)
+[![CocoaPods](http://img.shields.io/cocoapods/v/CSNLINEOpener.svg)](http://cocoadocs.org/docsets/CSNLINEOpener)
 ![](http://img.shields.io/badge/license-MIT-green.svg)
 
 ## 概要
