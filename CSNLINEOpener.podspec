@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CSNLINEOpener"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Open LINE.app with Text OR Image By Public API."
   s.description  = <<-DESC
                     Simple codes to open LINE.app with Text OR Image By Public API.
