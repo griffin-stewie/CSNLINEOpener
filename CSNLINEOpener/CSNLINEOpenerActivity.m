@@ -26,7 +26,7 @@
 #import "CSNLINEOpener.h"
 
 @interface CSNLINEOpenerActivity ( )
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) UIImage *icon;
 @property (nonatomic, strong) NSArray *activityItems;
 @end
