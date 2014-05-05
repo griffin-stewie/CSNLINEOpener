@@ -41,6 +41,6 @@
  
  @return instance of UIActivity,
  */
-- (id)initWithTitle:(NSString *)title icon:(UIImage *)icon;
+- (instancetype)initWithTitle:(NSString *)title icon:(UIImage *)icon;
 
 @end

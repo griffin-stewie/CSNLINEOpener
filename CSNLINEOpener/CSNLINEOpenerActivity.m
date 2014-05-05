@@ -34,7 +34,7 @@
 
 @implementation CSNLINEOpenerActivity
 
-- (id)initWithTitle:(NSString *)title icon:(UIImage *)icon
+- (instancetype)initWithTitle:(NSString *)title icon:(UIImage *)icon
 {
     self = [super init];
     if (self) {
