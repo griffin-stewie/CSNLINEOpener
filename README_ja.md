@@ -3,20 +3,13 @@
 [![CocoaPods](http://img.shields.io/cocoapods/v/CSNLINEOpener.svg)](http://cocoadocs.org/docsets/CSNLINEOpener)
 ![](http://img.shields.io/badge/license-MIT-green.svg)
 
-## Overview
+## 概要
 
-CSNLINEOpener provides "LINE it!". Please read the [Guidelines](http://media.line.me/guideline/en/ "Guidelines - The LINE it!") before use.
+NAVER (LINE) が提供している LINE アプリへ "LINEで送るボタン" 機能を提供します。ご利用には [ガイドライン](http://media.line.naver.jp/guideline/ja/ "ガイドライン｜LINEで送るボタン") に従う必要があります。
 
-`CSNLINEOpener` is simple class that sends text OR image to LINE.app. `CSNLINEOpenerActivity` is subclass of UIActivity.
+LINE アプリに対して文字列もしくは画像を送る `CSNLINEOpener` クラスと UIActivity のサブクラス `CSNLINEOpenerActivity` があります。
 
-## Requirements
-
-* iOS 6 or Later
-* ARC
-
-## Usage
-
-[CocoaDocs](http://cocoadocs.org/docsets/CSNLINEOpener/) for more infomation.
+## 使い方
 
 ### CSNLineOpener
 
@@ -37,16 +30,14 @@ UIActivityViewController *activityViewController = [[UIActivityViewController al
 [self presentViewController:activityViewController animated:YES completion:NULL];
 ```
 
-## Caution
+## インストール
 
-`CSLINEOpener` overrides existing data in `generalPasteboard` when sends image to LINE.app. cause we can't use named pasteboard to pass image from 3rd party application since iOS 7.
+Use CocoaPods,
 
-## Install
-
-```ruby
+```
 pod 'CSNLINEOpener', '~> 0.0'
 ```
 
-## License
+## ライセンス
 
 MIT License
