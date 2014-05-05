@@ -25,21 +25,21 @@
 #import <UIKit/UIKit.h>
 
 /**
- `CSNLineOpener` を使った `UIActivity` のサブクラス
+ UIActivity class that using `CSNLineOpener`
  */
 
 @interface CSNLINEOpenerActivity : UIActivity
 
 /**
- `UIActivity` のサブクラスを返す
+ Initializes and returns a new UIActivity object.
  
- @param title UIActivityViewController に表示させたい名前を指定。nil の場合は "LINE" と表示される。
+ @param title A user-readable string describing the service. If nil, 'LINE' by default.
  
- @param icon UIActivityViewController に表示させたいアイコンを指定。
+ @param icon An image that identifies the service to the user. If nil, nil by default.
  
- @discussion 指定イニシャライザです
+ @discussion designed initializer.
  
- @return UIActivity のインスタンスを返します
+ @return instance of UIActivity,
  */
 - (id)initWithTitle:(NSString *)title icon:(UIImage *)icon;
 

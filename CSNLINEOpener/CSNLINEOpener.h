@@ -26,43 +26,42 @@
 #import <Foundation/Foundation.h>
 
 /**
- LINE アプリに対し、テキストもしくは画像を渡して起動させるためのクラス。
- 「LINEで送るボタン」機能
- 
+ open LINE.app with text OR image. "LINE it!" function.
+
  */
 
 @interface CSNLINEOpener : NSObject
 
 /**
- LINE アプリがインストールされているかどうかを判定
+ Returns whether an app can open LINE.app if exists.
  
- @return "line://" スキームに対応していれば YES, そうでなければ NO を返す
+ @return NO if no app is available that will accept 'line://' scheme; otherwise, returns YES.
  */
 + (BOOL)canOpenLINE;
 
 /**
- text を LINE アプリに渡して起動
+ open LINE.app with text.
  
- @param text LINE アプリに渡したい文字列
- 
- @return LINE アプリが起動できれば YES、出来なければ NO を返す
+ @param text text you want to send.
+
+ @return NO if no app is available that will accept it; otherwise, returns YES.
  
  */
 + (BOOL)openLINEAppWithText:(NSString *)text;
 
 /**
- image を LINE アプリに渡して起動
+ open LINE.app with image.
  
- @param image LINE アプリに渡したい `UIImage`
+ @param image image you want to send.
  
- @return LINE アプリが起動できれば YES、出来なければ NO を返す
+ @return NO if no app is available that will accept it; otherwise, returns YES.
  */
 + (BOOL)openLINEAppWithImage:(UIImage *)image;
 
 /**
- AppStore でLINE アプリのページを開く
+ open LINE.app's page on AppStore.
 
- @return AppStore アプリが起動できれば YES、出来なければ NO を返す
+ @return NO if no app is available that will accept the URL; otherwise, returns YES.
  */
 + (BOOL)openAppStore;
 
